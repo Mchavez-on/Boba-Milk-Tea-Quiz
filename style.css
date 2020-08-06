@@ -18,6 +18,9 @@ h2 {
   margin-top: 2em; 
 }
 
+p{
+  color: #ffffff;
+}
 .question {
   display: flex;
   margin-top: 2em;
