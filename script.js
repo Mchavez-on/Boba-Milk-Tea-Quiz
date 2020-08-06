@@ -2,10 +2,10 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var qCount = 0;
-var blackMilkTea = 0;
-var thaiMilkTea = 0;
-var honeyDewMilkTea = 0;
-var taroMilkTea = 0;
+var blackMilkTeaS = 0;
+var thaiMilkTeaS = 0;
+var honeyDewMilkTeaS = 0;
+var taroMilkTeaS = 0;
 var result = document.getElementById("result");
 
 
@@ -63,32 +63,32 @@ q3a4.addEventListener("click", taroMilkTea);
 
 
 //#TODO: Define quiz functions here
-function blackMilk(){
-  blackMilkTea+=1;
+function blackMilkTea(){
+  blackMilkTeaS+=1;
   qCount+=1;
   alert("One point to Black Milk Tea!");
   if (qCount>= 3){
     updateResult();
   }
 }
-function thaiMilk(){
-  thaiMilkTea+=1;
+function thaiMilkTea(){
+  thaiMilkTeaS+=1;
   qCount+=1
   alert("One point to Thai Milk Tea!");
    if (qCount>= 3){
     updateResult();
   }
 }
-function honeyDewMilk(){
-  honeyDewMilkTea+=1;
+function honeyDewMilkTea(){
+  honeyDewMilkTeaS+=1;
   qCount+=1
   alert("One point to Honey Dew Milk Tea!");
    if (qCount>= 3){
     updateResult();
   }
 }
-function taroMilk(){
-  taroMilkTea+=1;
+function taroMilkTea(){
+  taroMilkTeaS+=1;
   qCount+=1
   alert("One point to Taro Milk Tea!");
    if (qCount>= 3){
@@ -96,16 +96,16 @@ function taroMilk(){
   }
 }
 function updateResult(){
-  if (blackMilkTea >= 2){
+  if (blackMilkTeaS >= 2){
     result.innerHTML = "Black Milk Tea!";
   }
-  else if (thaiMilkTea >=2){
+  else if (thaiMilkTeaS >=2){
     result.innerHTML = "Thai Milk Tea!";
   }
-  else if (honeyDewMilkTea >=2){
+  else if (honeyDewMilkTeaS >=2){
     result.innerHTML = "Honey Dew Milk Tea!";
   }
-  else if (taroMilkTea >=2){
+  else if (taroMilkTeaS >=2){
     result.innerHTML = "Taro Milk Tea!";
   }
   else{
