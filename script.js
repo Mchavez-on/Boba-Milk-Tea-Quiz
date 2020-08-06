@@ -97,16 +97,19 @@ function taroMilk(){
 }
 function updateResult(){
   if (blackMilkTea >= 2){
-    
+    result.innerHTML = "Black Milk Tea!";
   }
   else if (thaiMilkTea >=2){
-    
+    result.innerHTML = "Thai Milk Tea!";
   }
   else if (honeyDewMilkTea >=2){
-    
+    result.innerHTML = "Honey Dew Milk Tea!";
   }
   else if (taroMilkTea >=2){
-    
+    result.innerHTML = "Taro Milk Tea!";
+  }
+  else{
+    result.innerHTML = "Whoops! The Boba making machine broke.";
   }
 }
   
@@ -114,4 +117,3 @@ function updateResult(){
   
   
   
-}
