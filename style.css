@@ -29,6 +29,22 @@ h2 {
 
 .question{
   display: flex;
-  column-reverse
-  
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 3;
+}
+
+.answer-choice{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 5;
+}
+
+.result{
+  display: flex;
+  flex-direction:;
+  justify-content:;
+  flex-grow:;
+    
 }
